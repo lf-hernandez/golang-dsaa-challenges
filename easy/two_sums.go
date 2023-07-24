@@ -28,11 +28,11 @@ func twoSum(nums []int, target int) []int {
 }
 
 func main() {
-	var nums = []int{2, 7, 11, 15}
-	var target = 9
+	nums := []int{2, 7, 11, 15}
+	target := 9
 
-	var answerSlice = twoSum(nums, target)
-	var answerSum = 0
+	answerSlice := twoSum(nums, target)
+	answerSum := 0
 
 	fmt.Println("target: ", target)
 	fmt.Println("answer slice:", answerSlice)
